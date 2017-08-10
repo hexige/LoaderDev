@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="loader.dev.hxg.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_filter"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:hint="Input Filter"
+        android:inputType="text" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
